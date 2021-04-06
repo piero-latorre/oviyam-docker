@@ -10,6 +10,6 @@ RUN mkdir ovitmp && \
         unzip oviyam.zip
         
 RUN rm -R /usr/local/tomcat/webapps/ROOT/
-RUN cp /ovitmp/Oviyam-2.7.1-bin/Oviyam-2.7.1-bin/oviyam2.war /usr/local/tomcat/webapps/ROOT.war
-RUN cp /ovitmp/Oviyam-2.7.1-bin/tomcat/*.jar  /usr/local/tomcat/lib
+RUN cp /ovitmp/Oviyam-2.8-bin/Oviyam-2.8-bin/oviyam2.war /usr/local/tomcat/webapps/ROOT.war
+RUN cp /ovitmp/Oviyam-2.8-bin/tomcat/*.jar  /usr/local/tomcat/lib
 COPY tomcat-users.xml /usr/local/tomcat/conf/tomcat-users.xml
