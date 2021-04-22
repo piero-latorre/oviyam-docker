@@ -1,6 +1,6 @@
 # Oviyam 2 - Docker #
 
-## Build ##holi
+## Build
 
 ```bash
 docker build -t oviyam:2.7.1 .
