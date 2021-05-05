@@ -3,17 +3,17 @@
 ## Build
 
 ```bash
-docker build -t oviyam:2.8.1 .
+docker build -t oviyam:2.8 .
 ```
 
 ## Run ##
 ```bash
-docker run -it --rm -p 80:8080 -p 1025:1025 -v /oviyam:/usr/local/tomcat/work oviyam:2.7.1
+docker run -it --rm -p 80:8080 -p 1025:1025 -v /oviyam:/usr/local/tomcat/work oviyam:2.8
 ```
 
 Or in order to run within the same docker network as DCM4CHEE
 ```bash
-docker run -it  --network=dcm4chee_default --rm -p 80:8080 -p 1025:1025 -v /oviyam:/usr/local/tomcat/work oviyam:2.7.1
+docker run -it  --network=dcm4chee_default --rm -p 80:8080 -p 1025:1025 -v /oviyam:/usr/local/tomcat/work oviyam:2.8
 ```
 
 
